@@ -55,6 +55,10 @@ make docker-down
 Requires Go 1.25+.
 
 ```bash
+# Clone the repository and navigate into the project directory
+git clone https://github.com/ekhidirov/hermitmq.git
+cd hermitmq
+
 # Install dependencies
 go mod tidy
 
