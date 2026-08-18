@@ -52,9 +52,27 @@ cd hermitmq
 # Start the broker in the background
 make docker-up
 
+
+Once the container is running and listening on port 9092, you can immediately test the connection from your host machine using the built in clients.
+
+Open two new terminal windows.
+
+In the first terminal, start the consumer:
+
+```bash
+go run cmd/consumer/main.go
+```
+In the second terminal, start the producer and type a message:
+
+```bash
+go run cmd/producer/main.go
+```
+When you are done testing, you can easily stop and remove the containers:
+```bash
 # Stop the broker
 make docker-down
 ```
+
 
 ### 3.2 Local Development
 Requires Go 1.25+.
