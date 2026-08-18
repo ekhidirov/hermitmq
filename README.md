@@ -92,6 +92,24 @@ make test
 make run
 ```
 
+Once the broker is running locally, open two new terminal windows to test the connection.
+
+In the first terminal, start the consumer:
+
+```bash
+go run cmd/consumer/main.go
+```
+
+In the second terminal, start the producer and type a message:
+
+```bash
+go run cmd/producer/main.go
+```
+
+Type a message like Hello world! in the producer's terminal and press Enter. You will instantly see it appear in the consumer's terminal!
+
+
+
 ### 3.3 Using the Client SDK
 HermitMQ comes with a clean, built in Go SDK located in pkg/client.
 
