@@ -51,7 +51,7 @@ cd hermitmq
 
 # Start the broker in the background
 make docker-up
-
+```
 
 Once the container is running and listening on port 9092, you can immediately test the connection from your host machine using the built in clients.
 
