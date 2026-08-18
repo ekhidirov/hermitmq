@@ -1,0 +1,11 @@
+services:
+  hermitmq:
+    build: .
+    ports:
+      - "9092:9092"
+    volumes:
+      - hermitmq_data:/app/hermitmq-data
+    restart: unless-stopped
+
+volumes:
+  hermitmq_data:

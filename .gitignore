@@ -1,0 +1,21 @@
+# Binaries
+/bin/
+*.exe
+*.py
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Data and Logs
+/hermitmq-data/
+*.log
+
+# Go workspace
+go.work
+go.work.sum
+
+# OS specific
+.DS_Store
+Thumbs.dbindex.tar
+merged_output.txt

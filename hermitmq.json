@@ -1,0 +1,19 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 9092,
+    "handshake_timeout_sec": 5
+  },
+  "storage": {
+    "data_dir": "hermitmq-data",
+    "max_segment_mb": 1024,
+    "retention_hours": 168,
+    "cleanup_interval_min": 5,
+    "buffer_pool_size_kb": 32,
+    "max_buffer_return_kb": 64,
+    "flush_interval_ms": 500
+  },
+  "security": {
+    "max_payload_mb": 50
+  }
+}
