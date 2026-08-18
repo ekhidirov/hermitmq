@@ -11,6 +11,10 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
+## Watch the Demo
+See HermitMQ in action: from installation to pushing 1,000,000 messages in seconds.
+[![HermitMQ Demo](https://img.youtube.com/vi/6gt2MxXicE0/maxresdefault.jpg)](https://www.youtube.com/watch?v=6gt2MxXicE0)
+
 ---
 > **HermitMQ** is a fast custom built message broker designed for high load architectures it completely avoids the overhead of large serialization frameworks like json or protobuf during routing by using a strict custom binary protocol it achieves extreme throughput through zero copy network transmissions and aggressive memory pooling.
 
