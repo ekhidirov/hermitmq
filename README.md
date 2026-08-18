@@ -44,6 +44,11 @@
 The easiest way to run HermitMQ is using Docker Compose.
 
 ```bash
+
+# Clone the repository and navigate into the project directory
+git clone https://github.com/ekhidirov/hermitmq.git
+cd hermitmq
+
 # Start the broker in the background
 make docker-up
 
@@ -61,6 +66,9 @@ cd hermitmq
 
 # Install dependencies
 go mod tidy
+
+# To run all tests with the Go race detector enabled, execute:
+make test
 
 # Run the broker locally
 make run
