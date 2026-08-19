@@ -21,6 +21,7 @@ sudo systemctl status hermitmq
 ```
 
 Read the complete deployment and integration guide here:
+
 https://dev.to/erkin_khidirov_e1a1d8dc51/installation-and-configuration-of-hermitmq-22lp
 
 ## Watch the Demo
