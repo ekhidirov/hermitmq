@@ -15,8 +15,8 @@
 
 ```bash
 cd /tmp/
-wget [https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb](https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb)
-sudo apt install ./hermitmq_amd64.deb
+wget https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb
+sudo apt install -y ./hermitmq_amd64.deb
 sudo systemctl status hermitmq
 ```
 
