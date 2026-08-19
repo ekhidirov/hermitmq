@@ -20,6 +20,9 @@ sudo apt install -y ./hermitmq_amd64.deb
 sudo systemctl status hermitmq
 ```
 
+Read the complete deployment and integration guide here:
+https://dev.to/erkin_khidirov_e1a1d8dc51/installation-and-configuration-of-hermitmq-22lp
+
 ## Watch the Demo
 See HermitMQ in action: from installation to pushing 1,000,000 messages in seconds.
 [![HermitMQ Demo](https://img.youtube.com/vi/6gt2MxXicE0/maxresdefault.jpg)](https://www.youtube.com/watch?v=6gt2MxXicE0)
