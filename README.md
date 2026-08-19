@@ -11,6 +11,14 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
+<h2 align="center">Installation (Ubuntu / Debian amd64)</h2>
+```bash
+cd /tmp/
+wget [https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb](https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb)
+sudo apt install ./hermitmq_amd64.deb
+sudo systemctl status hermitmq
+```
+
 ## Watch the Demo
 See HermitMQ in action: from installation to pushing 1,000,000 messages in seconds.
 [![HermitMQ Demo](https://img.youtube.com/vi/6gt2MxXicE0/maxresdefault.jpg)](https://www.youtube.com/watch?v=6gt2MxXicE0)
