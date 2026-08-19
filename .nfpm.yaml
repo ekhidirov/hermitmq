@@ -1,0 +1,23 @@
+name: "hermitmq"
+arch: "amd64"
+platform: "linux"
+version: "1.0.0"
+section: "default"
+priority: "extra"
+maintainer: "Your Name <your@email.com>"
+description: "High-performance message broker for self-hosted corporate messenger"
+vendor: "Your Company"
+homepage: "https://erkin-khidirov.com/"
+license: "MIT"
+
+contents:
+  - src: ./bin/hermitmq          
+    dst: /usr/bin/hermitmq
+  - src: ./hermitmq.json     
+    dst: /etc/hermitmq/hermitmq.json
+    type: config
+  - src: ./hermitmq.service  
+    dst: /lib/systemd/system/hermitmq.service
+
+scripts:
+  postinstall: ./scripts/postinst.sh

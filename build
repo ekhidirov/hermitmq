@@ -1,0 +1,2 @@
+GOOS=linux GOARCH=amd64 go build -o bin/hermitmq cmd/hermitmq/main.go
+nfpm pkg --config .nfpm.yaml --target bin/hermitmq_1.0.0_amd64.deb

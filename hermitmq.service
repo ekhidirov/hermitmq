@@ -1,0 +1,14 @@
+[Unit]
+Description=HermitMQ - High-performance Message Broker
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/etc/hermitmq
+ExecStart=/usr/bin/hermitmq
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
