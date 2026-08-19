@@ -11,7 +11,8 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
-<h2 align="center">Installation (Ubuntu / Debian amd64)</h2>
+<h3 align="center">Installation (Ubuntu / Debian amd64)</h2>
+
 ```bash
 cd /tmp/
 wget [https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb](https://github.com/ekhidirov/hermitmq/releases/latest/download/hermitmq_amd64.deb)
