@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"hermitmq/internal/broker"
+	"github.com/ekhidirov/hermitmq/internal/broker"
 )
 
 func main() {

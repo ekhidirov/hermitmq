@@ -1,4 +1,4 @@
-module hermitmq
+module github.com/ekhidirov/hermitmq
 
 go 1.25.0
 

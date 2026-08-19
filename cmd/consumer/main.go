@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"hermitmq/pkg/client"
+
+	"github.com/ekhidirov/hermitmq/pkg/client"
 )
 
 func main() {
